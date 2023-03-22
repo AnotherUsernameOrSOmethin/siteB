@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'maine';
+    src: url(../les_styles/VT323-Regular.ttf);
+    font-display: swap;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+  }
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+
+body {
+    background-color:black;
+}
+
+.center{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemLoad {
+    color: white;
+    font-family:maine;
+    text-align: center;
+}
+
+.itemHeader {
+    color:rgb(255, 255, 255);
+    font-family: maine;
+    font-size: xxx-large;
+    text-align: center;
+    grid-area:header;
+}
+
+.itemLinks {
+    color:white;
+    font-family: maine;
+    font-size: large;
+    text-align:center;
+    grid-area:links;
+}
+
+.itemContent {
+    grid-area:content;
+    height: 300px; 
+}
+
+.itemBox1 {
+
+    color:white;
+    font-family: maine;
+    font-size: large;
+    border-color:white;
+    padding: 10px;
+    border: 3px solid;
+    text-align: center;
+    text-shadow: 2px 2px black;
+
+    background-image: url(../imgs/); 
+    background-repeat:no-repeat; 
+    background-size: 100%;
+    background-position: top;
+}
+
+.itemBox2 {
+ 
+    color:rgb(255, 255, 255);
+    font-family: maine;
+    font-size: large;
+    border-color:white;
+    padding: 10px;
+    border: 3px solid;
+    text-align: center;
+    text-shadow: 2px 2px black;
+
+    background-image: url(../imgs/socialmediaiconsbutnottooshort.png); 
+    background-repeat:no-repeat; 
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.itemBox3 {
+
+    color:white;
+    font-family: maine;
+    font-size: large;
+    border-color:white;
+    padding: 10px;
+    border: 3px solid;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'links links links'
+    'box1 box2 box3'
+    ;
+}
+
+.columns {
+    display:grid;
+    grid-auto-flow: column;
+    gap:30px ;
+}

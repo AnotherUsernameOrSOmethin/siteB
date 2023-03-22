@@ -1,0 +1,87 @@
+@font-face {
+    font-family:'A';
+    src: url(../css/GoodRetro.ttf);
+}
+
+@font-face {
+    font-family:'B';
+    src: url(../css/VT323-Regular.ttf);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-family: 'B';
+    font-weight:lighter;
+    font-size:20px;
+    margin-top:0;
+    margin-left:auto;
+    margin-right:auto;
+    line-height: 1.5;
+
+    text-align: center;
+    width: 600px;
+    height: 600px;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: auto;
+}
+
+header {
+    font-size:xxx-large;
+    font-weight:560;
+    margin-top: 30px;
+    text-align:center;
+}
+
+p {
+    border:5px solid;
+    border-color:rgb(0, 0, 0);
+    padding:10px;
+}
+
+.o {
+    font-size:xxx-large;
+    margin-top: 0;
+}
+
+.foto {
+    margin-top:0;
+    margin-bottom:40px;
+    font-size:x-small;
+}
+
+.img {
+    margin-bottom:auto;
+}
+
+a:link {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+  }

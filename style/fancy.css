@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "main";
+  src: url("./fonts/luximr.ttf");
+}
+
+body {
+  background-color: rgb(11, 0, 159);
+  color: white;
+  font-family: main;
+  font-size: large;
+}
+
+::-webkit-scrollbar {
+  background-color: rgb(11, 0, 159);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-button {}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  margin-bottom: 1%;
+  margin-right:1.5%;
+  width: fit-content;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#context {
+  text-decoration: underline;
+  background: none;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+}
+
+p {
+  background-color: white;
+  color: rgb(11, 0, 159);
+  width: fit-content;
+}
+
+#p2 {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  grid-area: h1;
+  background-color: white;
+  color:rgb(11, 0, 159);
+  font-size: xx-large;
+}
+
+h2 {
+  grid-area: h2;
+  margin-bottom: 2%;
+}
+
+#nav {
+  text-decoration: none;
+  font-size: x-large;
+  font-style: italic;
+  color: rgb(11, 0, 159);
+}
+
+.mainSiteGrid {
+  padding-left: 1%;
+  padding-right: 1%;
+  display: grid;
+  grid-template-areas:
+    "h1 h1"
+    "h2 h2"
+    "Items Items"
+    "Items Items"
+    "Items Items"
+    "Items Items"
+    "Items Items"
+    "Items Items";
+}
+
+.Items {
+  grid-area: Items;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  padding: 40%;
+  padding-top: 5%;
+  padding-bottom: 0%;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+h2 {
+  font-size: medium;
+}
+
+div {
+  font-size: small;
+}
+
+#Result {
+  font-size: xx-large;
+  animation: ease-in 1s;
+}
